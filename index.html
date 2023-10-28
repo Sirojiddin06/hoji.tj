@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+</head>
+<body>
+ 
+<style>
+    .header{
+        background-color: var(--color-unaccent);
+        height: 6vh;
+        width: auto;
+        font-size:larger;
+        font-weight: 900;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        }
+        .menu{
+            margin-left: 5vw;
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+
+</style>
+
+<link rel="stylesheet" href="slider.css">
+    
+    <div class="header">
+        <span class="menu"><a href="#">Home</a></span>
+        <span class="menu"><a href="form.html">Contact Us</a></span>
+        <span class="menu"><a href="about.html">About</a></span>
+       <!-- <span class="menu"><a href="faq.html">FAQ</a></span> -->
+        <!-- <span>Home</span> -->
+    </div>
+ 
+    <div id="header"></div>
+    <div id="products"></div>
+    <div id="shopping"></div>
+ 
+
+    <!-- Contants and Utils -->
+
+    <script src="constants/catalog.js"></script>
+    <script src="constants/root.js"></script>
+    <script src="utils/localStorageUtil.js"></script>
+
+    <!-- component header -->
+    <script src="components/Header/header.js"></script>
+    <link rel="stylesheet" href="components/Header/header.css">
+
+    <!-- component product -->
+
+    <script src="components/Products/products.js"></script>
+    <link rel="stylesheet" href="components/Products/products.css">
+    
+    <!-- component shopping -->
+
+    <script src="components/Shopping/shopping.js"></script>
+    <link rel="stylesheet" href="components/Shopping/shopping.css">
+    
+
+    
+</body>
+</html>
+
+
+<!-- // 9 urok. -->

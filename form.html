@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+    <div class="contain">
+     <form action="https://formsubmit.co/sirojiddinmirahmad@gmail.com" method="post"> 
+        <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+            <input type="email" id="email" name="Email" placeholder="Email ID" required>
+            <input type="number" id="phone" name="Phone Number" placeholder="Phone Number" required>
+            <textarea  id="message" name="Message" placeholder="How can we help you?"></textarea>
+            <button type="submit" onclick="send()">Send</button>
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+function send(){
+alert("Message Sent Succesfully");
+}
+</script>
+</body>
+</html>
